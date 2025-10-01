@@ -1,3 +1,58 @@
 Esto es una prueba de Gitgit
 Un rato depsues...
 Pepe escribió algo
+
+Apuntes de GitHub
+
+Configuracion Inicial
+-git config --global user.name "TuNombre" → Configurar nombre de usuario
+-git config --global user.email "tuemail@example.com" → Configurar email de usuario
+
+Iniciar clonar repositorio
+-git init → Inicia un repositorio local en la carpeta actual
+-git clone URL → Clona (descarga) un repositorio remoto de GitHub
+
+Estado y seguimiento de archivos
+-git status → Muestra el estado actual de los archivos
+-git add archivo.txt → Añade un archivo al área de preparación
+-git add . → Añade todos los archivos modificados
+
+Commits
+-git commit -m "mensaje" → Guarda los cambios en el historial local con un mensaje
+-git log → Muestra el historial de commits
+
+Conexión con repositorio remoto
+-git remote add origin URL → Vincula el repo local con uno remoto (GitHub)
+
+Subir y bajar cambios
+-git push -u origin main → Sube los cambios locales a la rama “main” en GitHub (primera vez)
+-git push → Sube cambios locales (ya vinculados)
+-git pull → Descarga y fusiona cambios desde el repositorio remoto
+
+Ramas
+-git branch nombre-rama → Crea una nueva rama
+-git checkout nombre-rama → Cambia a la rama indicada
+-git checkout -b nombre-rama → Crea y cambia a la nueva rama directamente
+-git merge nombre-rama → Fusiona la rama indicada con la actual
+-git branch -d nombre-rama → Elimina una rama
+
+Deshacer cambios
+-git checkout -- archivo.txt → Deshace cambios no guardados en un archivo
+-git reset archivo.txt → Quita un archivo del área de preparación
+
+Ramas remotas
+-git push origin nombre-rama → Sube una nueva rama al remoto
+
+Otros útiles
+-git diff → Muestra diferencias entre archivos modificados
+-git rm archivo.txt → Elimina un archivo del repositorio
+-git help comando → Muestra ayuda sobre un comando específico
+
+Flujo básico de trabajo
+-git init / git clone → Inicializar o clonar repositorio
+-git add . → Añadir cambios
+-git commit -m "mensaje" → Guardar cambios localmente
+-git push → Subir cambios a GitHub
+-git pull → Bajar cambios de otros colaboradores
+
+
